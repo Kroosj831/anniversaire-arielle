@@ -612,7 +612,7 @@
     </svg>
   </button>
 
-  <!-- Ajoute le fichier MP3 sous le nom music.mp3 dans ce dossier -->
+  <!-- Musique d'anniversaire : music/music.mp3 -->
   <audio id="bg-music" loop src="music/music.mp3"></audio>
 
 <script>
@@ -651,7 +651,12 @@ let opened = false;
 function openEnvelope(){
   if (opened) return;
   opened = true;
+
   envelope.classList.add('open');
+
+  const music = document.getElementById('bg-music');
+  music.play().catch(() => {});
+
   setTimeout(() => envelopeScreen.classList.add('hidden'), 650);
   startPetals();
 }
