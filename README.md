@@ -1,9 +1,17 @@
 # Anniversaire Arielle
 
-Site statique prêt pour GitHub Pages.
+Petit site statique d’anniversaire conçu comme une surprise interactive pour Arielle, avec photos, vidéos et musique.
+
+## Contenu
+
+- `index.html` : page principale du site
+- `images/` : galerie de souvenirs
+- `video/` : vidéos intégrées au site
+- `music/music.mp3` : musique d’anniversaire
 
 ## Musique
-Ajoute ton fichier MP3 à la racine du dossier et nomme-le `music.mp3`. Le bouton musical de la page est déjà configuré.
 
-## Publication GitHub Pages
-Le point d’entrée est `index.html`. Les dossiers `images/` , `video/` et `music/` doivent rester à côté de ce fichier.
+Le fichier audio utilisé par le site est placé ici :
+
+```text
+music/music.mp3
